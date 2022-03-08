@@ -1,0 +1,192 @@
+# Site
+repository: ravenesco/ravenesco.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Efim Klimov
+title: Python Developer
+email: efim.klimov.95@gmail.com
+website: ravenesco.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: ravenesco
+github_username: ravenesco
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: efim-klimov
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+    - title: Telegram
+      icon: fab fa-telegram-plane
+      url: https://t.me/ravenesco
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+    Hi, my name is Efim. I'm a Computer Science student with 5 years of software development experience currently specializing in <mark>Python automation</mark>. I have worked on desktop and web applications, for <mark>Windows</mark> and <mark>Linux</mark>. I have strong knowledge of <mark>Python 3</mark>, <mark>Django</mark>, <mark>ES6 JavaScript</mark>, <mark>ReactJS</mark>, and <mark>objective-oriented principles</mark>. Throughout my career, I have worked on projects related to Python automation, web applications, Autonomous Drive, and image processing.
+
+    Bot development and automation take up a fair share of my recent interests. I primarily use <mark>Python</mark> with <mark>Django</mark> framework to build and optimize the performance of online applications and automation scripts.
+
+    That being said, clear and consistent communication with customers means a lot for me to provide a fluent and joyful experience to you as best I can.
+
+    What I offer:
+
+    - Creating, setting up, and tweaking bots (e.g. for Telegram, Instagram)
+    - Automating manual tasks
+    - Building responsive and functional websites
+    - Front-end web development
+    - Back-end web development
+    - Database setup
+    - Connecting diverse <mark>REST APIs</mark>
+
+    - Experience with version control software: <mark>Git</mark>
+    - Experience with desktop versions of <mark>Windows</mark> and <mark>Linux</mark>
+
+    Looking forward to working with you.
+
+content:
+    - title: Projects # Title for the section
+      layout: list # Type of content section (list/text)
+      content:
+          - layout: top-middle
+            title: Tinder Automation Bot
+            link: github.com/ravenesco/Tinder-Bot
+            # link_text: Project Website
+            additional_links:
+                - title: ravenesco/Tinder-Bot
+                  icon: fab fa-github
+                  url: github.com/ravenesco/Tinder-Bot
+            quote: >
+                This Python bot learns a user's interests and automates the swiping game using Tinder API and TensorFlow
+            description: | # this will include new lines to allow paragraphs
+                The project began as a way for me to practice <mark>Machine Learning</mark> principles, and it has since evolved into a fully functional app. In the foundation of it lies <mark>TensorFlow</mark> Inception model responsible for classifying given images based on user's preferences. <mark>Python</mark> scripts in their turn provide image extraction through Tinder API and feed images to the model for evaluation.
+
+          - layout: top-middle
+            title: Instagram Automation Bot
+            link: github.com/ravenesco/Instagram-Bot
+            # link_text: Project Website
+            additional_links:
+                - title: ravenesco/Instagram-Bot
+                  icon: fab fa-github
+                  url: github.com/ravenesco/Instagram-Bot
+            quote: >
+                Multi-purpose Instagram bot that emulates user actions to like posts, search through lists of followers/followings, and more
+            description: | # this will include new lines to allow paragraphs
+                The bot makes use of <mark>Python</mark> logic to automate repetitive user actions, while interactions with Instagram are made through <mark>Selenium</mark> framework to scrape data off the platform's front-end.
+                I have been using this project as a way to increase many of my skills and also learn new things, most recently <mark>Web scraping</mark> to receive information from the platform for a lack of a reliable API.
+
+    - title: Experience # Title for the section
+      layout: list # Type of content section (list/text)
+      content:
+          - layout: left
+            title: Python Developer
+            caption: June 2020 - Present
+            description: | # this will include new lines to allow paragraphs
+                - Developed numerous automation bots for social media platforms like Telegram and Instagram
+                - Developed implementation of regression algorithms for image classification
+                - Delivering web application back-ends with use of <mark>Python</mark> and <mark>Django</mark> framework
+                - Incorporating diverse <mark>REST APIs</mark> to establish a connection between different services
+
+          - layout: left
+            title: Python + ReactJS Developer
+            sub_title: Luxoft
+            caption: August 2019 - May 2020
+            description: | # this will include new lines to allow paragraphs                
+                - Developed web front-end for a vehicle driving simulator using <mark>ReactJS</mark>
+                - Developed a <mark>Python</mark> back-end for an Autonomous Drive simulator
+                - Visualized <mark>SOME/IP</mark> and <mark>REST</mark> communication between numerous car ECUs
+                - Wrote supporting <mark>Bash</mark> scripts for the configuration of the simulator
+                - Developed <mark>Python</mark> scripts to convert MDF4 binary data, provided by vehicle sensors, into CSV human-readable files
+                - Provided automated visualization of CSV files with Atlassian JIRA through the means of <mark>Python</mark> scripts
+
+          - layout: left
+            title: C++ Developer
+            sub_title: Luxoft
+            caption: Febuary 2019 - July 2019
+            description: | # this will include new lines to allow paragraphs
+                - Developed <mark>C++</mark> module and unit tests in <mark>MinGW + Qt</mark> environment as a part of vehicle sensors development
+                - Covered over 100 test requirements, increased code coverage by over 40%, and built over 20 <mark>Unity</mark> test scenes
+                - Collaborated with a Scrum team of 20 developers to improve software quality
+
+          - layout: left
+            title: Web Developer
+            caption: July 2018 - February 2019
+            description: | # this will include new lines to allow paragraphs
+                - Built responsive and functional websites from scratch, with <mark>Python</mark>, <mark>ReactJS</mark>, and <mark>WordPress</mark>
+                - Developed both front-end and back-end of web apps
+                - Set up <mark>MySQL</mark> databases
+                - Tweaked and troubleshot <mark>WordPress</mark> themes
+
+          - layout: left
+            title: С++ Developer
+            sub_title: Lanit-Tercom
+            caption: October 2016 - August 2017
+            description: | # this will include new lines to allow paragraphs
+                - Developed and maintained <mark>C++</mark> back-end for a McGraw Hill Education web platform
+                - Was responsible for reworking outdated codebase and seamless migration from <mark>Silverlight</mark> to <mark>HTML5</mark>
+
+    - title: Education # Title for the section
+      layout: list # Type of content section (list/text)
+      content:
+          - layout: left
+            title: St. Petersburg State University
+            caption: 2014 - 2018
+            sub_title: Computer Science
+            description: | # this will include new lines to allow paragraphs
+                During my studies at St. Petersburg State University, I learned lots of key skills such as teamwork and self-management.Despite we mainly focused on software development and the principles of programming I apply a lot of these skills to my advantage in my day-to-day work.
+
+                While at University I spent a lot of my free time being involved in extracurricular projects ranging from fingerprint recognition to developing a mobile application for Microsoft services.
+
+    - title: Certificates # Title for the section
+      layout: list # Type of content section (list/text)
+      content:
+          - layout: left
+            title: EF SET English - C2 Proficient
+            caption: March 2022
+            link: https://www.efset.org/cert/p36n7w
+            description: | # this will include new lines to allow paragraphs
+
+    - title: A Little More About Me
+      layout: text
+      content: | # this will include new lines to allow paragraphs
+          When I'm not at my desk, I'm a pretty active person who spends the majority of my time outside. I like a variety of sports, including biking, climbing, and urban exploration. Since childhood, hiking and any time spent actively in nature have been a favorite pastime of mine.
+
+          I'm no stranger to video games either, and I cherish every moment spent online with my friends which allows us to keep connected while living in different parts of the world.
+
+          Finally, during the rest of my free time, you will probably find me breaking stuff like mobile firmware and operating systems (it's a lot of fun to do, promise).
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+plugins:
+    - jekyll-seo-tag
